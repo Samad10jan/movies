@@ -1,4 +1,6 @@
+//@ts-nocheck
 "use client";
+
 
 import { SignUpUser } from "@/services/firebase-auth";
 import Link from "next/link";
@@ -39,7 +41,7 @@ export default function SignUp() {
             console.log(userData);
 
             if (userData?.user) {
-                alert("Welcome!!")
+                alert("Welcome!! Please Login with your email and password");
                 router.push("/login");
             } else {
                 alert("Something happened. Please try again.");

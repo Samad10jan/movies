@@ -1,3 +1,4 @@
+//@ts-nocheck
 export default function Layout({ children }) {
     return (
    
@@ -7,7 +8,7 @@ export default function Layout({ children }) {
          
 
             <div>{children}</div>
-            
+
             </div>
             </div>
             

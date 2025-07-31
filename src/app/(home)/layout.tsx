@@ -52,7 +52,7 @@ export default function Layout({ children }) {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkMjQzZTRjOTUyN2NlMzViMGQzZTBjNWMwMmNkY2YzOCIsIm5iZiI6MTc1MjU5MjY1My45MDcsInN1YiI6IjY4NzY3MTBkOTZlZjI4YTc2OGVmMWE3NSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.TnGB6OqJPD0BfnReLJUaHweP_llLoNGqvU0BkHPeBwU'
+      Authorization: `Bearer ${process.env.key}`
     }
   };
 

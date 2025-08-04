@@ -10,7 +10,7 @@ const firebaseConfig = {
   projectId: "moviess-c2ed8",
   storageBucket: "moviess-c2ed8.firebasestorage.app",
   messagingSenderId: "495250180318",
-  appId: "1:495250180318:web:89c7bedfe3a3a3afe71a4f"
+  appId: process.env.FIREBASE_APPID
 };
 
 // Initialize Firebase
